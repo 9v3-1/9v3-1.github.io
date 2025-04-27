@@ -1,10 +1,10 @@
-import { defineStackbitConfig } from '@stackbit/sdk'; // not @stackbit/types
+import { defineStackbitConfig } from '@stackbit/sdk'; 
 
 export default defineStackbitConfig({
     stackbitVersion: '~0.6.0',
     nodeVersion: '18',
     ssgName: 'custom',
-    devCommand: 'npm run dev', // 👉 ADD THIS
+    devCommand: 'npm run dev', 
     postInstallCommand: 'npm i --no-save @stackbit/types',
     contentSource: {
         type: 'git',
