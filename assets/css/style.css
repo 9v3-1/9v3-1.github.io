@@ -107,3 +107,9 @@ body{
     background-color: rgb(255, 255, 255); /* Cambia el color de fondo al pasar el mouse */
     box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255); /* Efecto de resplandor */
   }
+html, body {
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
